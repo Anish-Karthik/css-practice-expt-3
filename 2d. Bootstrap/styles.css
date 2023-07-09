@@ -2,8 +2,8 @@
   cursor: pointer;
   margin: 3.5px;
   padding: 10px 23px;
+    transition: background-color 0.15s;
 }
-
 .get-started-btn {
   background-color: rgb(121, 82, 179);
   color: white;
@@ -13,6 +13,13 @@
   padding-bottom: 11px;
   font-weight: bold;
 }
+.get-started-btn:hover {
+  background-color: rgb(101, 62, 159);
+}
+.get-started-btn:active {
+  background-color: rgb(81, 42, 139);
+}
+
 .download-btn {
   background-color: white;
   border-color: rgb(108, 117, 125);
@@ -20,4 +27,13 @@
   color: rgb(108, 117, 125);
   border-radius: 4px;
   font-weight: bold;
+  transition: color 0.15s;
+}
+.download-btn:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.download-btn:active {
+  background-color: rgb(88, 97, 105);
+  color: white;
 }

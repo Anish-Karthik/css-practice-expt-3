@@ -3,6 +3,9 @@ a {
   font-size: 18px;
   font-style: underlined;
 }
+a:hover {
+  color: rgb(184, 52, 0);
+}
 h3 {
   color: rgb(0, 118, 0);
 }
@@ -16,13 +19,27 @@ p {
   width: 150px;
   height: 36px;
   border-radius: 18px;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
+  transition: background-color 0.15s;
 }
 
 .add-to-cart-btn {
   background-color: rgb(255, 216, 20);
 }
+.add-to-cart-btn:hover {
+  background-color: rgb(255, 188, 20);
+}
+.add-to-cart-btn:active {
+  background-color: rgb(255, 160, 20);
+}
+
 .buy-now-btn {
   background-color: rgb(255, 164, 28);
+}
+.buy-now-btn:hover {
+  background-color: rgb(255, 136, 28);
+}
+.buy-now-btn:active {
+  background-color: rgb(255, 108, 28);
 }
