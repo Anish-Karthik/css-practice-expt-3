@@ -1,0 +1,14 @@
+.btn {
+    cursor: pointer;
+    margin: 3.5px;
+    background-color: rgb(40, 121, 60);
+    color: white;
+    padding: 9px 16px;
+    border: none;
+}
+.stretch {
+    transition: padding 0.7s;
+}
+.stretch:hover {
+    padding: 16px 32px;
+}

@@ -1,0 +1,15 @@
+.btn {
+    cursor: pointer;
+    margin: 3.5px 10px;
+    background-color: rgb(40, 121, 60);
+    color: white;
+    padding: 9px 16px;
+    border: none;
+}
+.expand {
+    transition: padding 0.1s ease-in-out, margin 0.1s ease-in-out;
+}
+.expand:hover {
+    padding: 9px 26px;
+    margin: 3.5px 0px;
+}
