@@ -1,0 +1,17 @@
+.request-btn {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 126px;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-right: 7px;
+  transition: opacity 0.15s;
+}
+.request-btn:hover {
+  opacity: 0.8;
+}
+.request-btn:active {
+  opacity: 0.6;
+}
