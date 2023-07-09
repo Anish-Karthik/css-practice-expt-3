@@ -16,8 +16,7 @@ p {
   cursor: pointer;
   margin: 3.5px 12px 3.5px 0px;
   border: none;
-  width: 150px;
-  height: 36px;
+  padding: 10px 16px;
   border-radius: 18px;
   font-size: 15px;
   cursor: pointer;

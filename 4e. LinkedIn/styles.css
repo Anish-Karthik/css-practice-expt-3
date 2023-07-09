@@ -2,14 +2,13 @@
   cursor: pointer;
   margin: 3.5px;
   border-radius: 18px;
+  padding: 10px 19px;
 }
 
 .apply-btn {
   background-color: rgb(10, 102, 194);
   color: white;
   border: none;
-  height: 36px;
-  width: 230px;
   font-weight: bold;
   transition: background-color 0.15s;
 }
@@ -24,14 +23,14 @@
   background-color: white;
   border-color: rgb(10, 102, 194);
   border-width: 1px;
-  height: 36px;
-  width: 80px;
+  padding: 9px 18px;
   color: rgb(10, 102, 194);
   font-weight: bold;
-  transition: box-shadow 0.15s, border-width 0.15s;
+  transition: box-shadow 0.15s;
 }
 .save-btn:hover {
   border-width: 2px;
+  padding: 8px 17px;
 }
 .save-btn:active {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
